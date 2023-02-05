@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARental & moving service Finland</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css ">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo_round2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">YOUR CITY</a>
+                        <!---- S    <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="#">Jyväskylä</a></li>
+                                <li><a href="#">Helsinki</a></li>
+                                <li><a href="#">Tampere</a></li>
+                            </ul>
+                        </div>  ---->
+                    </li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+    <!------- about us content ------>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Affordable moving services in Finland and abroad by professionals with years of experience.</h1>
+                <p>Our company has been carrying out cargo transportation in Finland and abroad for more than 3 years.
+                    During this time, we have received a lot of positive feedback from our customers and have earned a
+                    reputation as a reliable assistant in moving and transporting goods. We strive to make cooperation
+                    with us profitable and convenient, so we are constantly developing our services and keeping our
+                    shipping website up to date!</p>
+                <a href="" class="hero-btn green-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpeg">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-------Footer ------>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Affordable moving services in Finland and abroad by professionals with years of experience. <br> We also rent
+            moving cars and trailers if necessary, and offer all services related to moving. <br> Furthermore, we offer
+            the
+            cleaning services 59€ per hour or 79 € for two hours.</p>
+        <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by <i class="fa-brands fa-github"></i> <a
+                href="https://github.com/ira-bazz?tab=repositories">ira-bazz</a></p>
+    </section>
+
+
+
+
+    <!-------JavaScript for Toggle Menu ------>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+</body>
+
+</html>
