@@ -7,7 +7,7 @@ $message = $_POST['message'];
 $date = $_POST['move-day'];
 
 
-$email_from = 'http://carental.fi/muuttopalvelu/';
+$email_from = 'info@carental.fi';
 
 $email_subject = 'Tarjous Pyyntö';
 

@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="fi-FI">
 
 <head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CARental & moving service Finland</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>CARental & moving service Finland</title>
+  <link rel="icon" type="image/x-icon" href="images/logo_round2.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css ">
 </head>
 
 <body>
-    <section class="sub-header">
-        <nav>
-            <a href="index.html"><img src="images/logo_round2.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">Etusivu</a></li>
-                    <li><a href="about.html">Tietoa meistä</a></li>
-                    <li><a href="services.html">Palvelumme</a></li>
-                    <li><a href="yourcity.html">Valitse kaupunki</a></li>
-                    <li><a href="contact.html">Yhteystiedot</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <h1>Automme</h1>
-    </section>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/round_noback.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Etusivu</a></li>
+          <li><a href="about.html">Tietoa meistä</a></li>
+          <li><a href="services.html">Palvelumme</a></li>
+          <li><a href="yourcity.html">Autot</a></li>
+          <li><a href="contact.html">Yhteystiedot</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Vuokrakalusto</h1>
+  </section>
 
-    <!------City list ------>
+  <!------City list ------>
 
-    <!----- <section class="cities">
+  <!----- <section class="cities">
         <div class="dropdown">
             <button class="dropdown__hover"> Choose your city </button>
             <div class="dropdown__menu">
@@ -47,732 +49,730 @@
 
     ------>
 
-    <!-------Gallery ------>
-    <section class="gallery">
-        <h1 id="jyvaskyla">Jyväskylä</h1>
+  <!-------Gallery ------>
+  <section class="gallery">
+    <h1 id="jyvaskyla">Jyväskylä</h1>
 
-        <div class="row">
-            <div class="gallery-col">
-                <img src="images/auto_1.png">
-                <h3>Iveco Daily pakettiauto 20m3 (KYLMÄ)</h3>
-                <p>
-                <b>Ajokorttiluokka:</b> B <br>
-                <b>Henkilömäärä:</b> 3 <br> 
-                <b>Tavaratilan mitat:</b> 4.3m x 2.16m x 2.1m <br>
-                <b>Tilavuus:</b> 20m3 <br>
-                <b>Polttoaine:</b> Diesel <br>
-                <b>Vaihteisto:</b> Manuaali <br>
-                <b>Vuosimalli:</b> 2014 <br> 
-            </p>
-            <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>1t</td>
-                      <td>40€</td>
-                    </tr>
-                    <tr>
-                      <td>2t</td>
-                      <td>50€</td>
-                    </tr>
-                    <tr>
-                        <td>3t</td>
-                        <td>60€</td>
-                      </tr>
-                      <tr>
-                        <td>4t</td>
-                        <td>70€</td>
-                      </tr>
-                      <tr>
-                        <td>5t</td>
-                        <td>80€</td>
-                      </tr>
-                      <tr>
-                        <td>6t</td>
-                        <td>90€</td>
-                      </tr>
-                      <tr>
-                        <td>6-12t</td>
-                        <td>120€</td>
-                      </tr>
-                      <tr>
-                        <td>yli 12-24t(vrk)</td>
-                        <td>140€</td>
-                      </tr>
-                  </table> 
-            </div>
-            <div class="gallery-col">
-                <img src="images/auto_2.jpg">
-                <h3>Mercedes-Benz Sprinter pakettiauto 20m3</h3>
-                <p> 
-                <b>Ajokorttiluokka:</b> B <br>
-                <b>Henkilömäärä:</b> 2 <br> 
-                <b>Tavaratilan mitat:</b> 4.0m x 2.1m x 2.2m<br>
-                <b>Tilavuus:</b> 20m3 <br>
-                <b>Polttoaine:</b> Diesel <br>
-                <b>Vaihteisto:</b> Manuaali <br>
-                <b>Vuosimalli:</b> 2005
-            </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>1t</td>
-                      <td>30€</td>
-                    </tr>
-                    <tr>
-                      <td>2t</td>
-                      <td>40€</td>
-                    </tr>
-                    <tr>
-                        <td>3t</td>
-                        <td>50€</td>
-                      </tr>
-                      <tr>
-                        <td>4t</td>
-                        <td>60€</td>
-                      </tr>
-                      <tr>
-                        <td>5t</td>
-                        <td>70€</td>
-                      </tr>
-                      <tr>
-                        <td>6t</td>
-                        <td>80€</td>
-                      </tr>
-                      <tr>
-                        <td>6-12t</td>
-                        <td>100€</td>
-                      </tr>
-                      <tr>
-                        <td>yli 12-24t(vrk)</td>
-                        <td>120€</td>
-                      </tr>
-                  </table> 
-            </div>
-            <div class="gallery-col">
-                <img src="images/auto_3.png">
-                <h3>Mercedes-Benz Sprinter pakettiauto 16m3</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 3 <br> 
-                    <b>Tavaratilan mitat:</b> 4m x 1.75m x 1.75m<br>
-                    <b>Tilavuus:</b> 16m3 <br>
-                    <b>Polttoaine:</b> Diesel <br>
-                    <b>Vaihteisto:</b> Manuaali <br>
-                    <b>Vuosimalli:</b> 2007
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>1t</td>
-                      <td>30€</td>
-                    </tr>
-                    <tr>
-                      <td>2t</td>
-                      <td>35€</td>
-                    </tr>
-                    <tr>
-                        <td>3t</td>
-                        <td>40€</td>
-                      </tr>
-                      <tr>
-                        <td>4t</td>
-                        <td>50€</td>
-                      </tr>
-                      <tr>
-                        <td>5t</td>
-                        <td>70€</td>
-                      </tr>
-                      <tr>
-                        <td>6t</td>
-                        <td>75€</td>
-                      </tr>
-                      <tr>
-                        <td>6-12t</td>
-                        <td>80€</td>
-                      </tr>
-                      <tr>
-                        <td>yli 12-24t(vrk)</td>
-                        <td>100€</td>
-                      </tr>
-                  </table>
-            </div>
+    <div class="row">
+      <div class="gallery-col">
+        <img src="images/auto_1.png">
+        <h3>Iveco Daily pakettiauto 20m3 (KYLMÄ)</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 3 <br>
+          <b>Tavaratilan mitat:</b> 4.3m x 2.16m x 2.1m <br>
+          <b>Tilavuus:</b> 20m3 <br>
+          <b>Polttoaine:</b> Diesel <br>
+          <b>Vaihteisto:</b> Manuaali <br>
+          <b>Vuosimalli:</b> 2014 <br>
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>1t</td>
+            <td>40€</td>
+          </tr>
+          <tr>
+            <td>2t</td>
+            <td>50€</td>
+          </tr>
+          <tr>
+            <td>3t</td>
+            <td>60€</td>
+          </tr>
+          <tr>
+            <td>4t</td>
+            <td>70€</td>
+          </tr>
+          <tr>
+            <td>5t</td>
+            <td>80€</td>
+          </tr>
+          <tr>
+            <td>6t</td>
+            <td>90€</td>
+          </tr>
+          <tr>
+            <td>6-12t</td>
+            <td>120€</td>
+          </tr>
+          <tr>
+            <td>yli 12-24t(vrk)</td>
+            <td>140€</td>
+          </tr>
+        </table>
+      </div>
+      <div class="gallery-col">
+        <img src="images/auto_2.jpg">
+        <h3>Mercedes-Benz Sprinter pakettiauto 20m3</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 2 <br>
+          <b>Tavaratilan mitat:</b> 4.0m x 2.1m x 2.2m<br>
+          <b>Tilavuus:</b> 20m3 <br>
+          <b>Polttoaine:</b> Diesel <br>
+          <b>Vaihteisto:</b> Manuaali <br>
+          <b>Vuosimalli:</b> 2005
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>1t</td>
+            <td>30€</td>
+          </tr>
+          <tr>
+            <td>2t</td>
+            <td>40€</td>
+          </tr>
+          <tr>
+            <td>3t</td>
+            <td>50€</td>
+          </tr>
+          <tr>
+            <td>4t</td>
+            <td>60€</td>
+          </tr>
+          <tr>
+            <td>5t</td>
+            <td>70€</td>
+          </tr>
+          <tr>
+            <td>6t</td>
+            <td>80€</td>
+          </tr>
+          <tr>
+            <td>6-12t</td>
+            <td>100€</td>
+          </tr>
+          <tr>
+            <td>yli 12-24t(vrk)</td>
+            <td>120€</td>
+          </tr>
+        </table>
+      </div>
+      <div class="gallery-col">
+        <img src="images/auto_3.png">
+        <h3>Mercedes-Benz Sprinter pakettiauto 16m3</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 3 <br>
+          <b>Tavaratilan mitat:</b> 4m x 1.75m x 1.75m<br>
+          <b>Tilavuus:</b> 16m3 <br>
+          <b>Polttoaine:</b> Diesel <br>
+          <b>Vaihteisto:</b> Manuaali <br>
+          <b>Vuosimalli:</b> 2007
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>1t</td>
+            <td>30€</td>
+          </tr>
+          <tr>
+            <td>2t</td>
+            <td>35€</td>
+          </tr>
+          <tr>
+            <td>3t</td>
+            <td>40€</td>
+          </tr>
+          <tr>
+            <td>4t</td>
+            <td>50€</td>
+          </tr>
+          <tr>
+            <td>5t</td>
+            <td>70€</td>
+          </tr>
+          <tr>
+            <td>6t</td>
+            <td>75€</td>
+          </tr>
+          <tr>
+            <td>6-12t</td>
+            <td>80€</td>
+          </tr>
+          <tr>
+            <td>yli 12-24t(vrk)</td>
+            <td>100€</td>
+          </tr>
+        </table>
+      </div>
 
-        </div>
+    </div>
 
-        <div class="row">
-            <div class="gallery-col">
-                <img src="images/auto_4.jpg">
-                <h3>Mercedes-Benz 15m3</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 3 <br> 
-                    <b>Tavaratilan mitat:</b> 4.5m x 1.75m x 1.90m<br>
-                    <b>Tilavuus:</b> 20m3 <br>
-                    <b>Polttoaine:</b> Diesel <br>
-                    <b>Vaihteisto:</b> Manuaali <br>
-                    <b>Vuosimalli:</b> 2007
-                </p>
-                    <table>
-                        <tr>
-                          <th>Hinnasto:</th>
-                          <th></th>
-                        </tr>
-                        <tr>
-                          <td>1t</td>
-                          <td>30€</td>
-                        </tr>
-                        <tr>
-                          <td>2t</td>
-                          <td>35€</td>
-                        </tr>
-                        <tr>
-                            <td>3t</td>
-                            <td>40€</td>
-                          </tr>
-                          <tr>
-                            <td>4t</td>
-                            <td>50€</td>
-                          </tr>
-                          <tr>
-                            <td>5t</td>
-                            <td>70€</td>
-                          </tr>
-                          <tr>
-                            <td>6t</td>
-                            <td>75€</td>
-                          </tr>
-                          <tr>
-                            <td>6-12t</td>
-                            <td>80€</td>
-                          </tr>
-                          <tr>
-                            <td>yli 12-24t(vrk)</td>
-                            <td>100€</td>
-                          </tr>
-                      </table>
-            </div>
-            
-            <div class="gallery-col">
-                <img src="images/auto_5.jpg">
-                <h3>Fiat Ducato 13m3</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 3 <br> 
-                    <b>Tavaratilan mitat:</b> 3.4m x 1.9m x 1.8m<br>
-                    <b>Tilavuus:</b> 13m3 <br>
-                    <b>Polttoaine:</b> Diesel <br>
-                    <b>Vaihteisto:</b> Manuaali <br>
-                    <b>Vuosimalli:</b> 2007
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>1t</td>
-                      <td>20€</td>
-                    </tr>
-                    <tr>
-                      <td>2t</td>
-                      <td>30€</td>
-                    </tr>
-                    <tr>
-                        <td>3t</td>
-                        <td>40€</td>
-                      </tr>
-                      <tr>
-                        <td>4t</td>
-                        <td>50€</td>
-                      </tr>
-                      <tr>
-                        <td>5t</td>
-                        <td>60€</td>
-                      </tr>
-                      <tr>
-                        <td>6t</td>
-                        <td>70€</td>
-                      </tr>
-                      <tr>
-                        <td>6-12t</td>
-                        <td>80€</td>
-                      </tr>
-                      <tr>
-                        <td>yli 12-24t(vrk)</td>
-                        <td>100€</td>
-                      </tr>
-                  </table>
+    <div class="row">
+      <div class="gallery-col">
+        <img src="images/auto_4.jpg">
+        <h3>Mercedes-Benz 15m3</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 3 <br>
+          <b>Tavaratilan mitat:</b> 4.5m x 1.75m x 1.90m<br>
+          <b>Tilavuus:</b> 20m3 <br>
+          <b>Polttoaine:</b> Diesel <br>
+          <b>Vaihteisto:</b> Manuaali <br>
+          <b>Vuosimalli:</b> 2007
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>1t</td>
+            <td>30€</td>
+          </tr>
+          <tr>
+            <td>2t</td>
+            <td>35€</td>
+          </tr>
+          <tr>
+            <td>3t</td>
+            <td>40€</td>
+          </tr>
+          <tr>
+            <td>4t</td>
+            <td>50€</td>
+          </tr>
+          <tr>
+            <td>5t</td>
+            <td>70€</td>
+          </tr>
+          <tr>
+            <td>6t</td>
+            <td>75€</td>
+          </tr>
+          <tr>
+            <td>6-12t</td>
+            <td>80€</td>
+          </tr>
+          <tr>
+            <td>yli 12-24t(vrk)</td>
+            <td>100€</td>
+          </tr>
+        </table>
+      </div>
 
-            </div>
-            <div class="gallery-col">
-                <img src="images/auto_6.jpg">
-                <h3>Tilava 8m2 koppikärry (peräkärry)</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    
-                    <b>Tavaratilan mitat:</b> 3.5m x 1.5m x 1.5m<br>
-                    <b>Tilavuus:</b> 8m3 <br>
-                    <b>Vuosimalli:</b> 2020
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>45€</td>
-                    </tr>
-                    <tr>
-                      <td>Viikonloppu</td>
-                      <td>90€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikko</td>
-                        <td>170€</td>
-                      </tr>
-                      <tr>
-                        <td>Kuukausi</td>
-                        <td>399€</td>
-                      </tr>
-                  </table>
-            </div>
+      <div class="gallery-col">
+        <img src="images/auto_5.jpg">
+        <h3>Fiat Ducato 13m3</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 3 <br>
+          <b>Tavaratilan mitat:</b> 3.4m x 1.9m x 1.8m<br>
+          <b>Tilavuus:</b> 13m3 <br>
+          <b>Polttoaine:</b> Diesel <br>
+          <b>Vaihteisto:</b> Manuaali <br>
+          <b>Vuosimalli:</b> 2007
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>1t</td>
+            <td>20€</td>
+          </tr>
+          <tr>
+            <td>2t</td>
+            <td>30€</td>
+          </tr>
+          <tr>
+            <td>3t</td>
+            <td>40€</td>
+          </tr>
+          <tr>
+            <td>4t</td>
+            <td>50€</td>
+          </tr>
+          <tr>
+            <td>5t</td>
+            <td>60€</td>
+          </tr>
+          <tr>
+            <td>6t</td>
+            <td>70€</td>
+          </tr>
+          <tr>
+            <td>6-12t</td>
+            <td>80€</td>
+          </tr>
+          <tr>
+            <td>yli 12-24t(vrk)</td>
+            <td>100€</td>
+          </tr>
+        </table>
 
-      
-        </div>
+      </div>
+      <div class="gallery-col">
+        <img src="images/auto_6.jpg">
+        <h3>Tilava 8m2 koppikärry (peräkärry)</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
 
-        <div class="row">
-            <div class="gallery-col">
-                <img src="images/auto_7.jpg">
-                <h3>Mercedes-Benz E</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 5 <br>
-                    <b>Polttoaine:</b> Diesel <br>
-                    <b>Vaihteisto:</b> Automaatti <br>
-                    <b>Vuosimalli:</b> 2009
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>80€</td>
-                    </tr>
-                    <tr>
-                      <td>Viikonloppu</td>
-                      <td>250€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikko</td>
-                        <td>400€</td>
-                      </tr>
-                      <tr>
-                        <td>Kuukausi</td>
-                        <td>1000€</td>
-                      </tr>
-                  </table>
-                </div>
-            <div class="gallery-col">
-                <img src="images/auto_8.jpg">
-                <h3>BMW 520d</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 5 <br>
-                    <b>Polttoaine:</b> Diesel <br>
-                    <b>Vaihteisto:</b> Automaatti <br>
-                    <b>Vuosimalli:</b> 2012
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>90€</td>
-                    </tr>
-                    <tr>
-                      <td>Viikonloppu</td>
-                      <td>270€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikko</td>
-                        <td>450€</td>
-                      </tr>
-                      <tr>
-                        <td>Kuukausi</td>
-                        <td>1100€</td>
-                      </tr>
-                  </table>
-            </div>
-            <div class="gallery-col">
-                <img src="images/auto_9.png">
-                <h3>Audi A8</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 5 <br>
-                    <b>Polttoaine:</b> Diesel <br>
-                    <b>Vaihteisto:</b> Automaatti <br>
-                    <b>Vuosimalli:</b> 2005
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>80€</td>
-                    </tr>
-                    <tr>
-                      <td>Viikonloppu</td>
-                      <td>250€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikko</td>
-                        <td>400€</td>
-                      </tr>
-                      <tr>
-                        <td>Kuukausi</td>
-                        <td>1000€</td>
-                      </tr>
-                  </table>
-            </div>
+          <b>Tavaratilan mitat:</b> 3.5m x 1.5m x 1.5m<br>
+          <b>Tilavuus:</b> 8m3 <br>
+          <b>Vuosimalli:</b> 2020
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>45€</td>
+          </tr>
+          <tr>
+            <td>Viikonloppu</td>
+            <td>90€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>170€</td>
+          </tr>
+          <tr>
+            <td>Kuukausi</td>
+            <td>399€</td>
+          </tr>
+        </table>
+      </div>
 
-        </div>
-        <div class="row">
-            <div class="gallery-col">
-                <img src="images/auto_10.png">
-                <h3>Ford Focus</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 5 <br>
-                    <b>Polttoaine:</b> Diesel <br>
-                    <b>Vaihteisto:</b> Manuaali <br>
-                    <b>Vuosimalli:</b> 2007
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>50€</td>
-                    </tr>
-                    <tr>
-                        <td>3 vrk.</td>
-                        <td>120€</td>
-                      </tr>
-                    
-                    <tr>
-                      <td>Viikonloppu</td>
-                      <td>120€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikko</td>
-                        <td>250€</td>
-                      </tr>
-                      <tr>
-                        <td>Kuukausi</td>
-                        <td>600€</td>
-                      </tr>
-                  </table>
-                </div>
-            <div class="gallery-col">
-                <img src="images/auto_11.png">
-                <h3>Nissan Primera</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 5 <br>
-                    <b>Polttoaine:</b> Bensiini <br>
-                    <b>Vaihteisto:</b> Manuaali <br>
-                    <b>Vuosimalli:</b> 2005
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>40€</td>
-                    </tr>
-                    <tr>
-                        <td>3 vrk.</td>
-                        <td>100€</td>
-                      </tr>
-                    
-                    <tr>
-                      <td>Viikonloppu</td>
-                      <td>100€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikko</td>
-                        <td>170€</td>
-                      </tr>
-                      <tr>
-                        <td>Kuukausi</td>
-                        <td>450€</td>
-                      </tr>
-                  </table>
-            </div>
-            <div class="gallery-col">
-                <img src="images/auto_12.jpg">
-                <h3>Pegeot 206</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 5 <br>
-                    <b>Polttoaine:</b> Bensiini <br>
-                    <b>Vaihteisto:</b> Manuaali <br>
-                    <b>Vuosimalli:</b> 2005
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>25€</td>
-                    </tr>
-                    <tr>
-                        <td>3 vrk.</td>
-                        <td>70€</td>
-                      </tr>
-                    
-                    <tr>
-                      <td>Viikonloppu</td>
-                      <td>70€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikko</td>
-                        <td>120€</td>
-                      </tr>
-                      <tr>
-                        <td>Kuukausi</td>
-                        <td>350€</td>
-                      </tr>
-                  </table>
-                </div>
 
-        </div>
-        <div class="row">
-            <div class="gallery-col">
-                <img src="images/auto_13.jpg">
-                <h3>Nissan Almera</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 5 <br>
-                    <b>Polttoaine:</b> Bensiini <br>
-                    <b>Vaihteisto:</b> Manuaali <br>
-                    <b>Vuosimalli:</b> 2005
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>35€</td>
-                    </tr>
-                    <tr>
-                        <td>3 vrk.</td>
-                        <td>100€</td>
-                      </tr>
-                    
-                    <tr>
-                      <td>Viikonloppu</td>
-                      <td>100€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikko</td>
-                        <td>170€</td>
-                      </tr>
-                      <tr>
-                        <td>Kuukausi</td>
-                        <td>450€</td>
-                      </tr>
-                  </table>
-                </div>
-            <div class="gallery-col">
-                <img src="images/auto_14.png">
-                <h3>Opel Astra</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B <br>
-                    <b>Henkilömäärä:</b> 5 <br>
-                    <b>Polttoaine:</b> Diesel <br>
-                    <b>Vaihteisto:</b> Manuaali <br>
-                    <b>Vuosimalli:</b> 2001
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>30€</td>
-                    </tr>
-                    <tr>
-                        <td>3 vrk.</td>
-                        <td>80€</td>
-                      </tr>
-                    
-                    <tr>
-                      <td>Viikonloppu</td>
-                      <td>80€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikko</td>
-                        <td>150€</td>
-                      </tr>
-                      <tr>
-                        <td>Kuukausi</td>
-                        <td>400€</td>
-                      </tr>
-                  </table>
+    </div>
 
-                </div>
-            <div class="gallery-col">
-                <img src="images/auto_15.jpg">
-                <h3>Kawasaki Ninja zzr-1100</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> A <br>
-                    <b>Henkilömäärä:</b> 2 <br>
-                    <b>Polttoaine:</b> Bensiini <br>
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                        <td>1t</td>
-                        <td>20€</td>
-                      </tr>
-                      <tr>
-                        <td>Päivä</td>
-                        <td>50€</td>
-                      </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>60€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikonloppu</td>
-                        <td>150€</td>
-                      </tr>
-                    <tr>
-                      <td>Viikko</td>
-                      <td>300€</td>
-                    </tr>
-                      <tr>
-                        <td>Kuukausi</td>
-                        <td>500€</td>
-                      </tr>
-                  </table>
-            </div>
+    <div class="row">
+      <div class="gallery-col">
+        <img src="images/auto_7.jpg">
+        <h3>Mercedes-Benz E</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 5 <br>
+          <b>Polttoaine:</b> Diesel <br>
+          <b>Vaihteisto:</b> Automaatti <br>
+          <b>Vuosimalli:</b> 2009
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>80€</td>
+          </tr>
+          <tr>
+            <td>Viikonloppu</td>
+            <td>250€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>400€</td>
+          </tr>
+          <tr>
+            <td>Kuukausi</td>
+            <td>1000€</td>
+          </tr>
+        </table>
+      </div>
+      <div class="gallery-col">
+        <img src="images/auto_8.jpg">
+        <h3>BMW 520d</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 5 <br>
+          <b>Polttoaine:</b> Diesel <br>
+          <b>Vaihteisto:</b> Automaatti <br>
+          <b>Vuosimalli:</b> 2012
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>90€</td>
+          </tr>
+          <tr>
+            <td>Viikonloppu</td>
+            <td>270€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>450€</td>
+          </tr>
+          <tr>
+            <td>Kuukausi</td>
+            <td>1100€</td>
+          </tr>
+        </table>
+      </div>
+      <div class="gallery-col">
+        <img src="images/auto_9.png">
+        <h3>Audi A8</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 5 <br>
+          <b>Polttoaine:</b> Diesel <br>
+          <b>Vaihteisto:</b> Automaatti <br>
+          <b>Vuosimalli:</b> 2005
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>80€</td>
+          </tr>
+          <tr>
+            <td>Viikonloppu</td>
+            <td>250€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>400€</td>
+          </tr>
+          <tr>
+            <td>Kuukausi</td>
+            <td>1000€</td>
+          </tr>
+        </table>
+      </div>
 
-        </div>
+    </div>
+    <div class="row">
+      <div class="gallery-col">
+        <img src="images/auto_10.png">
+        <h3>Ford Focus</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 5 <br>
+          <b>Polttoaine:</b> Diesel <br>
+          <b>Vaihteisto:</b> Manuaali <br>
+          <b>Vuosimalli:</b> 2007
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>50€</td>
+          </tr>
+          <tr>
+            <td>3 vrk.</td>
+            <td>120€</td>
+          </tr>
 
-        <div class="row">
-            <div class="gallery-col">
-                <img src="images/auto_16.jpg">
-                <h3>Majava 1300</h3>
-                <p> 
-                    <b>Ajokorttiluokka:</b> B, BE <br>
-                    <b>Kantavuus:</b> 1020kg <br>
-                </p>
-                <table>
-                    <tr>
-                      <th>Hinnasto:</th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                        <td>1t</td>
-                        <td>20€</td>
-                      </tr>
-                      <tr>
-                        <td>Päivä</td>
-                        <td>60€</td>
-                      </tr>
-                    <tr>
-                      <td>Vuorokausi</td>
-                      <td>70€</td>
-                    </tr>
-                    <tr>
-                        <td>Viikonloppu</td>
-                        <td>150€</td>
-                      </tr>
-                    <tr>
-                      <td>Viikko</td>
-                      <td>350€</td>
-                    </tr>
-                  </table>
-                </div>
-            <div class="gallery-col">
-                <img src="">
-                <!-- <h3>Kawasaki Ninja zzr-1100</h3>
+          <tr>
+            <td>Viikonloppu</td>
+            <td>120€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>250€</td>
+          </tr>
+          <tr>
+            <td>Kuukausi</td>
+            <td>600€</td>
+          </tr>
+        </table>
+      </div>
+      <div class="gallery-col">
+        <img src="images/auto_11.png">
+        <h3>Nissan Primera</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 5 <br>
+          <b>Polttoaine:</b> Bensiini <br>
+          <b>Vaihteisto:</b> Manuaali <br>
+          <b>Vuosimalli:</b> 2005
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>40€</td>
+          </tr>
+          <tr>
+            <td>3 vrk.</td>
+            <td>100€</td>
+          </tr>
+
+          <tr>
+            <td>Viikonloppu</td>
+            <td>100€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>170€</td>
+          </tr>
+          <tr>
+            <td>Kuukausi</td>
+            <td>450€</td>
+          </tr>
+        </table>
+      </div>
+      <div class="gallery-col">
+        <img src="images/auto_12.jpg">
+        <h3>Pegeot 206</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 5 <br>
+          <b>Polttoaine:</b> Bensiini <br>
+          <b>Vaihteisto:</b> Manuaali <br>
+          <b>Vuosimalli:</b> 2005
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>25€</td>
+          </tr>
+          <tr>
+            <td>3 vrk.</td>
+            <td>70€</td>
+          </tr>
+
+          <tr>
+            <td>Viikonloppu</td>
+            <td>70€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>120€</td>
+          </tr>
+          <tr>
+            <td>Kuukausi</td>
+            <td>350€</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="gallery-col">
+        <img src="images/auto_13.jpg">
+        <h3>Nissan Almera</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 5 <br>
+          <b>Polttoaine:</b> Bensiini <br>
+          <b>Vaihteisto:</b> Manuaali <br>
+          <b>Vuosimalli:</b> 2005
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>35€</td>
+          </tr>
+          <tr>
+            <td>3 vrk.</td>
+            <td>100€</td>
+          </tr>
+
+          <tr>
+            <td>Viikonloppu</td>
+            <td>100€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>170€</td>
+          </tr>
+          <tr>
+            <td>Kuukausi</td>
+            <td>450€</td>
+          </tr>
+        </table>
+      </div>
+      <div class="gallery-col">
+        <img src="images/auto_14.png">
+        <h3>Opel Astra</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B <br>
+          <b>Henkilömäärä:</b> 5 <br>
+          <b>Polttoaine:</b> Bensiini <br>
+          <b>Vaihteisto:</b> Manuaali <br>
+          <b>Vuosimalli:</b> 2001
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>30€</td>
+          </tr>
+          <tr>
+            <td>3 vrk.</td>
+            <td>80€</td>
+          </tr>
+
+          <tr>
+            <td>Viikonloppu</td>
+            <td>80€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>150€</td>
+          </tr>
+          <tr>
+            <td>Kuukausi</td>
+            <td>400€</td>
+          </tr>
+        </table>
+
+      </div>
+      <div class="gallery-col">
+        <img src="images/auto_15.jpg">
+        <h3>Kawasaki Ninja zzr-1100</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> A <br>
+          <b>Henkilömäärä:</b> 2 <br>
+          <b>Polttoaine:</b> Bensiini <br>
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>1t</td>
+            <td>20€</td>
+          </tr>
+          <tr>
+            <td>Päivä</td>
+            <td>50€</td>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>60€</td>
+          </tr>
+          <tr>
+            <td>Viikonloppu</td>
+            <td>150€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>300€</td>
+          </tr>
+          <tr>
+            <td>Kuukausi</td>
+            <td>500€</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="gallery-col">
+        <img src="images/auto_16.jpg">
+        <h3>Majava 1300</h3>
+        <p>
+          <b>Ajokorttiluokka:</b> B, BE <br>
+          <b>Kantavuus:</b> 1020kg <br>
+        </p>
+        <table>
+          <tr>
+            <th>Hinnasto:</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>1t</td>
+            <td>20€</td>
+          </tr>
+          <tr>
+            <td>Päivä</td>
+            <td>60€</td>
+          </tr>
+          <tr>
+            <td>Vuorokausi</td>
+            <td>70€</td>
+          </tr>
+          <tr>
+            <td>Viikonloppu</td>
+            <td>150€</td>
+          </tr>
+          <tr>
+            <td>Viikko</td>
+            <td>350€</td>
+          </tr>
+        </table>
+      </div>
+      <div class="gallery-col">
+        <img src="">
+        <!-- <h3>Kawasaki Ninja zzr-1100</h3>
                 <p>Tilava auto moneen työhön. Kuormatilan lattia 4.0 metriä pitkä. Tavaratilan mitat: 4.0m x 2.1m x 2.2m, tilavuus noin 20m3. Kesä- ja talvirenkaat hyvät. Polttoaineena diesel, keskikulutus noin 12l/100km. Nokkakärryt veloituksetta.
 
                     Kokonaispituus (mm) 6300 Leveys (mm) 2200 Takaylitys (mm) 1800 Omamassa (kg) 2330 Tieliikenteessä suurin sallittu kokonaismassa (kg) 3500 Tekninen suurin sallittu kokonaismassa (kg) 3500</p> -->
-            </div>
-         <div class="gallery-col">
-                <img src="">
-                <!-- <h3>Pegeot</h3>
+      </div>
+      <div class="gallery-col">
+        <img src="">
+        <!-- <h3>Pegeot</h3>
                 <p>Tilava auto moneen työhön. Kuormatilan lattia 4.3 metriä pitkä. Tavaratilan mitat: 4.3m x 2 m x 1.8m, tilavuus noin 16m3. Kesä- ja talvirenkaat hyvät. Polttoaineena diesel, keskikulutus noin 9l/100km. Työvalot takana. Nokkakärryt veloituksetta.</p> -->
-            </div>
-        </div>
+      </div>
+    </div>
 
-    </section>
+  </section>
 
-    <!-------Footer ------>
-    <section class="footer">
-        <h4>Tietoa meistä</h4>
-        <p>Edullisia muuttoja kotimaassa ja ulkomaille ammattimaisesti vuosien kokemuksella. 🇫🇮🌍 <br> Vuokraamme
-            myös tarvittaessa muuttoautoja ja peräkärryjä, sekä tarjoamme kaikki muuttoon liittyvät palvelut.<br>
-            Kysy myös siivoojaa loppusiivousta varten tarvittaessa tuntihintaan 59 euroa tai 79 euroa ( kahdesta)
-            👌🤩</p>
-        <div class="icons">
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <a href="https://www.linkedin.com/company/carental-moving-service-finland/about/"><i
-                    class="fa-brands fa-linkedin"></i></a>
-        </div>
-        <p>Made with <i class="fa-regular fa-heart"></i> by <i class="fa-brands fa-github"></i> <a
-                href="https://github.com/ira-bazz?tab=repositories">ira-bazz</a></p>
-    </section>
+  <!-------Footer ------>
+  <section class="footer">
+    <h4>Tietoa meistä</h4>
+    <p>Edullisia muuttoja kotimaassa ja ulkomaille ammattimaisesti vuosien kokemuksella. 🇫🇮🌍 <br> Vuokraamme
+      myös tarvittaessa muuttoautoja ja peräkärryjä, sekä tarjoamme kaikki muuttoon liittyvät palvelut.<br>
+      Kysy myös siivoojaa loppusiivousta varten tarvittaessa tuntihintaan 59 euroa tai 79 euroa ( kahdesta)
+      👌🤩</p>
+    <div class="icons">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <a href="https://www.linkedin.com/company/carental-moving-service-finland/about/"><i
+          class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </section>
 
 
 
 
-    <!-------JavaScript for Toggle Menu ------>
+  <!-------JavaScript for Toggle Menu ------>
 
-    <script>
+  <script>
 
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0"
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px"
-        }
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0"
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px"
+    }
 
-    </script>
+  </script>
 </body>
 
 </html>

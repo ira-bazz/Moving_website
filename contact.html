@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="fi-FI">
 
 <head>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     <title>CARental & moving service Finland</title>
+    <link rel="icon" type="image/x-icon" href="images/logo_round2.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,14 +18,14 @@
 <body>
     <section class="sub-header">
         <nav>
-            <a href="index.html"><img src="images/logo_round2.png"></a>
+            <a href="index.html"><img src="images/round_noback.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">Etusivu</a></li>
                     <li><a href="about.html">Tietoa meistä</a></li>
                     <li><a href="services.html">Palvelumme</a></li>
-                    <li><a href="yourcity.html">Valitse kaupunki</a></li>
+                    <li><a href="yourcity.html">Autot</a></li>
                     <li><a href="contact.html">Yhteystiedot</a></li>
                 </ul>
             </div>
@@ -69,6 +71,7 @@
                     <input type="text" name="subject" placeholder="Viestin aihe" required>
                     <input type="tel" name="phone" placeholder="Puhelinnumero">
                     <textarea rows="8" name="message" placeholder="Lisätiedot" required></textarea>
+                    <p>Toivottu muuttopäivä</p>
                     <input type="date" name="move-day" value="2023-0-01" min="2023-02-01" max="2030-12-31"
                         placeholder="Toivottu muuttopäivä">
                     <button type="submit" class="hero-btn green-btn">Lähetä</button>
@@ -90,8 +93,6 @@
                 <a href="https://www.linkedin.com/company/carental-moving-service-finland/about/"><i
                         class="fa-brands fa-linkedin"></i></a>
             </div>
-            <p>Made with <i class="fa-regular fa-heart"></i> by <i class="fa-brands fa-github"></i> <a
-                    href="https://github.com/ira-bazz?tab=repositories">ira-bazz</a></p>
         </section>
 
         <!------- JavaScript for Toggle Menu ------>
